@@ -1,14 +1,22 @@
-h2{
+h3{
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
     padding-top: 64px;
+    color: rgb(60, 64, 67);
 }
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding-top: 20px;
     margin-bottom: 10px;
+    color: rgb(33, 33, 33);
 }
 a{
     text-decoration: none;
+}
+ul>li{
+    list-style-type: decimal;
+}
+ul>li>ul>li{
+    list-style-type: lower-latin;
 }
