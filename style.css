@@ -1,6 +1,35 @@
 /*
     HEADER
 */
+header{
+    padding: 8px;
+}
+header img{
+    max-width: 85px;
+}
+header .sx span{
+    font-size: 22px;
+    color: rgb(60, 64, 67);
+}
+header .bottom{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 6px;
+}
+header .bottom ul{
+    margin: 0;
+    padding: 0;
+}
+header .bottom li{
+    list-style-type: none;
+    margin: 0 10px -1px;
+}
+header .bottom a{
+    color: #5f6368;
+    padding-bottom: 5px;
+}
+header .bottom a:hover{
+    color: #3367d6;
+}
 /*
     /HEADER
 */

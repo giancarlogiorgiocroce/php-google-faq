@@ -112,13 +112,32 @@ $db = [
 </head>
 <body>
 
-    <header>HW</header>
+    <header>
+        <div class="top">
+            <div class="sx d-flex align-items-center">
+                <img src="google.PNG" alt="Google">
+                <span class="my-1">Privacy e termini</span>
+            </div>
+            <div class="dx"></div>
+        </div>
+
+        <div class="bottom">
+            <ul class="d-flex justify-content-start align-items-center">
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a class="active" href="#">Domande frequenti</a></li>
+            </ul>
+        </div>
+
+    </header>
 
     <main>
         <div class="wrapper">
             <?php foreach($db as $section => $QnA): ?>
                 <section class="container-fluid">
-                    <h3><?php echo $QnA['question'] ?></h3>
+                    <h4><?php echo $QnA['question'] ?></h4>
                     <div><?php echo $QnA['answer'] ?></div>
                 </section>
             <?php endforeach; ?>
@@ -141,9 +160,8 @@ $db = [
                         <i class="fa-solid fa-globe"></i>
                         <select name="" id="">
                             <option value="">Italiano</option>
-                            <option value="">Tedesco</option>
-                            <option value="">Inglese</option>
                             <option value="">Klingon</option>
+                            <option value="">Esperanto</option>
                         </select>
                     </div>
                 </div>
